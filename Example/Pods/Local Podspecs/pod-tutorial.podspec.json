@@ -1,0 +1,23 @@
+{
+  "name": "pod-tutorial",
+  "version": "0.1.0",
+  "summary": "My beautiful pod tutorial :)",
+  "description": "This is my tutorial pod designed to heal all the iOS developers! :)",
+  "homepage": "https://github.com/MatheusFV/pod-tutorial",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MatheusFV": "matheus.appsimples@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MatheusFV/pod-tutorial.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "pod-tutorial/Classes/**/*",
+  "swift_version": "4.1"
+}

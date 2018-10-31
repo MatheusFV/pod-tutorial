@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'pod-tutorial'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of pod-tutorial.'
+  s.summary          = 'My beautiful pod tutorial :)'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is my tutorial pod designed to heal all the iOS developers! :)
                        DESC
 
   s.homepage         = 'https://github.com/MatheusFV/pod-tutorial'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'pod-tutorial/Classes/**/*'
-  
+  s.swift_version = '4.1'
   # s.resource_bundles = {
   #   'pod-tutorial' => ['pod-tutorial/Assets/*.png']
   # }
